@@ -20,7 +20,7 @@ const levels = {
 
 // Change Levels
 
-const currentLevel = levels.medium;
+const currentLevel = levels.hard;
 
 // DOM Elements
 
