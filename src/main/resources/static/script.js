@@ -111,7 +111,7 @@ function init(){
 function startMatch(){
     if(matchWords()){
         isPlaying = true;
-        time = currentLevel +1;
+        time = currentLevel;
         showWord(words);
         wordInput.value = '';
         score++;
