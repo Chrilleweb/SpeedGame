@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Speed typing game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header><h1>Speed Typing Game</h1></header>
+
+<div class="container">
+    <!-- Word And Input -->
+    <div class="row">
+        <div class="col">
+            <p class="lead">Skriv ordet inden
+                <span class="text-success" id="seconds">5 Seconds:</span></p>
+            <h2 class="display-2" id="current-word">Hej</h2>
+            <input type="text" class="form-control form-control-lg" placeholder="Start Typing..." id="word-input" autofocus>
+            <h4 class="mt-3" id="message"></h4>
+            <div class="row">
+                <div class="col-s12-m4">
+                    <h3>Time Left:
+                        <span id="time">0</span>
+                    </h3>
+                </div>
+                <div class="col">
+                    <h3>Score:
+                        <span id="score">0</span>
+                    </h3>
+                </div>
+            </div>
+            <br>
+            <h3 id="last">Last score: <span id="lastScore">0</span> </h3>
+            <h2>HIGH SCORE: <span id="highScore">0</span></h2>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="script.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+body {
+    background-color: #343d4b;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#current-word {
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+#word-input {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#message {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+#last {
+    margin-top: 40px;
+}
